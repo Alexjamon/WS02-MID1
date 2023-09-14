@@ -1,0 +1,114 @@
+html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    
+    }
+    header{
+    background-image: linear-gradient(to right ,#885000, #ffc46f, #aa6809) ;
+    padding: 25px;
+    text-align: center;
+    }
+    h1{
+    font-size: 70px;
+    color: #5D3700;
+    font-family: georgia;
+    }
+
+    h2{
+        font-size: 30px;
+        color: #5D3700;
+        text-align: center;  
+    }
+    ol {
+        list-style: none;
+        padding: 10px;
+        margin: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 22px;
+        color: #d6c7c7;
+        background-color: #5D3700;
+        border-radius: 5px;
+        text-align: justify;
+        border-left: 10px solid #ff9500;
+        border-right: 10px solid #ff9500;
+    }
+    header img{
+    border-radius: 170px;
+    width: 220px;
+    border: 15px solid #5D3700;
+    
+    }
+    .content{
+    max-width: 100%;
+    margin:  auto;
+    padding: 10px 200px;
+    background-image: linear-gradient(to right ,#885000, #ffc46f, #aa6809) ;
+    
+    }
+    img.big-image{
+    margin-left: 250px;
+    margin-top: 30px;
+    height: 400px ;
+    
+    }
+    h1.caption{
+    font-size: 30px;
+    color: #5D3700;
+    font-family: Georgia;
+    text-align: center;
+    
+    }
+    
+    ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    
+    }
+    li{
+        font-size: 22px;
+    }
+    
+    footer{
+    margin: auto;
+    padding: 20px 1px;
+    background-color: #885000;
+    }
+    footer ul{
+    text-align: center;
+    }
+    footer ul li{
+    display: inline-block;
+    margin: 1px 5px;
+    color: #1B1000;
+    }
+    p{
+        color: #d6c7c7;
+        font-size: 22px;
+        padding: 12px;
+        background-color: #5D3700  ;
+        border-radius: 5px;
+        padding: 25px;
+        text-align: justify;
+        border-left: 10px solid #ff9500;
+        border-right: 10px solid #ff9500;
+    }
+    hr{
+        border-color: #ffc46f;
+        border-width: 1px;
+    }
+    .big-image:hover{
+        background: transparent  ;
+        transform: scale(1.2);
+        color:white;
+        transition: .4s;
+    }
+    ul li a:hover{
+        color: skyblue;
+        transition: .35;
+    }
